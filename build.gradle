@@ -3,6 +3,10 @@ plugins {
     id 'application'
 }
 
+repositories{
+    mavencentral()
+}
+
 application {
     mainClass = 'app.PrimeiraClasse'
 }
